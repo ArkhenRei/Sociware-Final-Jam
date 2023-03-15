@@ -23,6 +23,9 @@ public class Move : MonoBehaviour
 
     private float _maxSpeedChange, _acceleration, _wallStickCounter;
     private bool _onGround;
+
+
+    private Animator anim;
     
     // Start is called before the first frame update
     void Awake()
@@ -31,6 +34,7 @@ public class Move : MonoBehaviour
         _collisionDataRetriever = GetComponent<CollisionDataRetriever>();
         _controller = GetComponent<Controller>();
         _wallInteractor = GetComponent<WallInteractor>();
+        anim = transform.GetChild(0).gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -75,5 +79,26 @@ public class Move : MonoBehaviour
         #endregion
 
         _body.velocity = _velocity;
+        if (_body.velocity.x != 0)
+        {
+            anim.SetBool("isWalking", true);
+        }
+        else
+        {
+            anim.SetBool("isWalking", false);
+        }
+        if (_body.velocity.x < 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+        else if (_body.velocity.x > 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            anim.SetTrigger("isJumping");
+        }
+       
     }
 }
