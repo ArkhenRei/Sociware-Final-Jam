@@ -40,7 +40,7 @@ public class SceneCt : MonoBehaviour
             timer.SetActive(false);
             scoreUI.SetActive(false);
             transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.SetActive(true);
-            Time.timeScale = 0;
+            Time.unscaledTime = 0;
         }
         roundTime = (Time.time - startTime).ConvertTo<int>();
         timerText.GetComponent<TextMeshProUGUI>().text = "Time: " + roundTime.ToString();
