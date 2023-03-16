@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,847 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: blender_idle_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 664
+        width: 222
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4829a71cbe6ca8f4d9213dcc38e46fe0
+      internalID: 1694438133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 663
+        width: 224
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba32eb22480ae7e44b60ba9eed57049b
+      internalID: 986568321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 663
+        width: 227
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d77c73e60aca44686a928d0e2f623e
+      internalID: 1597042549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_3
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 662
+        width: 232
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4ac892e54dc9e40bde1f0416dd8b65
+      internalID: -1939332187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 662
+        width: 237
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b3008a8d53d2448905336a60b414b0
+      internalID: 743426905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 661
+        width: 244
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb6bcb033b1c8c468771103b903aaef
+      internalID: 1592489005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 660
+        width: 250
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac15419d0e4e3cd47ab64c8f8d6c2874
+      internalID: -221786207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 529
+        width: 255
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe62eb20c8caa24987e86e8eebcae48
+      internalID: 1211932479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 529
+        width: 261
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2151d124758082d42b1d59da68817ffd
+      internalID: 892176809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_9
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 528
+        width: 266
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de424e1b500f4ca4bbe5cd7b596637fa
+      internalID: -1900003730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_10
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 528
+        width: 270
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980de488c6794a046bed650ed6cda4a7
+      internalID: -2089081542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_11
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 528
+        width: 274
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efeafcb484a32f479e2c168eb6c2002
+      internalID: -664658354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_12
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 527
+        width: 277
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6114a803b313e35448f48af382a61e31
+      internalID: -293422839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_13
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 527
+        width: 280
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b825e6dafe8908e4e9186eef926bf47d
+      internalID: 1574800719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 397
+        width: 282
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241f8a1f088cd8a4289dfd6605a670ae
+      internalID: 1761770752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 396
+        width: 284
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d3d9160110d2642a62483bc18e7f60
+      internalID: -49690517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_16
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 396
+        width: 284
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d5f3eaefd4dcc4c942895cbdd36d8d
+      internalID: -2017086422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_17
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 396
+        width: 285
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1c2d00ca89a7143b97982be8096dc4
+      internalID: 600591395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_18
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 396
+        width: 283
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350f843182ad087429f5f0a6285d88d6
+      internalID: -979891953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_19
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 397
+        width: 284
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0f0a99583f8b0448ebd6d33672778b
+      internalID: 1505252967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_20
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 397
+        width: 281
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48f82789ed78674486be9ce0ffcc574
+      internalID: -86544802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 266
+        width: 279
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5a1a3b606b455418fb79b4f9dd1aaa
+      internalID: 52820313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 267
+        width: 275
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeadbb0521f91046b0f3d19aa86c772
+      internalID: 731576139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_23
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 267
+        width: 271
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e650fe5ded002904f8ebd53666eb4303
+      internalID: -1114824163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_24
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 267
+        width: 267
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a73be184c8027b41a423a1f6b371aa5
+      internalID: 177929901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_25
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 268
+        width: 262
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60a176851a46ee4789ef2e391022a2a
+      internalID: -1236382858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_26
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 268
+        width: 258
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44d8dd5a13e89f40bea5a51f3c82884
+      internalID: 969283076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_27
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 269
+        width: 253
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a6aec57a6c17442aceb1455e298355
+      internalID: -930979586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 139
+        width: 249
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d03304e5723b09489087cb0949f823e
+      internalID: -2112318769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_29
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 139
+        width: 244
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcb5aedf7d94a94eb0559b2da2c6542
+      internalID: 1750057472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_30
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 139
+        width: 240
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004d823aab22774419d453923bb0f589
+      internalID: 1765969076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_31
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 139
+        width: 237
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eddd89f431bc234ea8bc5ffe67a8814
+      internalID: -1831366252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_32
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 140
+        width: 233
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2b63f3f2c2e9d44b34d778a192102b
+      internalID: 549556114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_33
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 140
+        width: 231
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150839b43fff5554f95276944451d2cd
+      internalID: -1808404559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_34
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 141
+        width: 227
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e56a0f66507cda43af4f3f2dc8876ca
+      internalID: 1759039788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 225
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc62828ab7b17684b9e767fbee58c50c
+      internalID: 1412873693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_36
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 11
+        width: 224
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27132c12f4d12424f9c5faad47764c8d
+      internalID: 1436923186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_37
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 11
+        width: 223
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9f551d23be134418520b1ea68105eb
+      internalID: -369023649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_38
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 11
+        width: 222
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230f17995cc4f424a8f06380490bc15f
+      internalID: -890071711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blender_idle_39
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 11
+        width: 222
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a93dec21a3917149b0dac3ae1305c50
+      internalID: 1030826811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +966,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blender_idle_0: 1694438133
+      blender_idle_1: 986568321
+      blender_idle_10: -2089081542
+      blender_idle_11: -664658354
+      blender_idle_12: -293422839
+      blender_idle_13: 1574800719
+      blender_idle_14: 1761770752
+      blender_idle_15: -49690517
+      blender_idle_16: -2017086422
+      blender_idle_17: 600591395
+      blender_idle_18: -979891953
+      blender_idle_19: 1505252967
+      blender_idle_2: 1597042549
+      blender_idle_20: -86544802
+      blender_idle_21: 52820313
+      blender_idle_22: 731576139
+      blender_idle_23: -1114824163
+      blender_idle_24: 177929901
+      blender_idle_25: -1236382858
+      blender_idle_26: 969283076
+      blender_idle_27: -930979586
+      blender_idle_28: -2112318769
+      blender_idle_29: 1750057472
+      blender_idle_3: -1939332187
+      blender_idle_30: 1765969076
+      blender_idle_31: -1831366252
+      blender_idle_32: 549556114
+      blender_idle_33: -1808404559
+      blender_idle_34: 1759039788
+      blender_idle_35: 1412873693
+      blender_idle_36: 1436923186
+      blender_idle_37: -369023649
+      blender_idle_38: -890071711
+      blender_idle_39: 1030826811
+      blender_idle_4: 743426905
+      blender_idle_5: 1592489005
+      blender_idle_6: -221786207
+      blender_idle_7: 1211932479
+      blender_idle_8: 892176809
+      blender_idle_9: -1900003730
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

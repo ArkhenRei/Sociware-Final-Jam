@@ -104,9 +104,13 @@ public class Move : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Finish"));
+        if (collision.CompareTag("Finish"))
         {
             GameObject.FindWithTag("SceneCT").GetComponent<SceneCt>().FinishLevel();
+        }
+        else if(collision.CompareTag("Enemy"))
+        {
+            collision.gameObject.transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 }

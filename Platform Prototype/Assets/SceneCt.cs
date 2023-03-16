@@ -65,6 +65,7 @@ public class SceneCt : MonoBehaviour
         startTime = Time.time;
         timer.SetActive(true);
         scoreUI.SetActive(true);
+        canvas.transform.GetChild(3).gameObject.SetActive(false);
         Time.timeScale = 1;
     }
     public void Continue()
@@ -83,5 +84,13 @@ public class SceneCt : MonoBehaviour
         score = score + (60000 * (1 / roundTime));
     }
 
+    public void FinishCombat()
+    {
+        GameObject.FindGameObjectWithTag("Combat").SetActive(false);
+    }
+    public void StartCombat()
+    {
+
+    }
 }
 
