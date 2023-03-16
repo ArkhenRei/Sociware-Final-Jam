@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 6854961505328034167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.8460588, y: 1.3296481, z: -9.900525}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6854961506409035098}
@@ -171,7 +171,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6854961506409035170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.31, y: 0.57, z: 5.45}
+  m_LocalPosition: {x: -13.05, y: 0.98, z: 5.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -338,9 +338,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 11400000, guid: 9f12a336525aab342881c256e69cf200, type: 2}
-  _maxSpeed: 7
+  _maxSpeed: 10
   _maxAcceleration: 50
-  _maxAirAcceleration: 20
+  _maxAirAcceleration: 35
   _wallStickTime: 0.25
 --- !u!114 &6854961506409035168
 MonoBehaviour:
@@ -391,8 +391,8 @@ MonoBehaviour:
   input: {fileID: 11400000, guid: 9f12a336525aab342881c256e69cf200, type: 2}
   _jumpHeight: 4
   _maxAirJumps: 0
-  _downwardMovementMultiplier: 3
-  _upwardMovementMultiplier: 1.7
+  _downwardMovementMultiplier: 5
+  _upwardMovementMultiplier: 2.5
   _coyoteTime: 0.2
   _jumpBufferTime: 0.2
 --- !u!114 &6854961506409035096
