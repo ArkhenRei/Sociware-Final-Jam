@@ -342,6 +342,18 @@ PrefabInstance:
       value: Big Kitchen Platform
       objectReference: {fileID: 0}
     - target: {fileID: 2447587653736268819, guid: c860c139828ee2b43809a70d589c5240, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447587653736268819, guid: c860c139828ee2b43809a70d589c5240, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447587653736268819, guid: c860c139828ee2b43809a70d589c5240, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447587653736268819, guid: c860c139828ee2b43809a70d589c5240, type: 3}
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
