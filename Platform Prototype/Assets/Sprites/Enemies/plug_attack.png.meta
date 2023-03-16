@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: plug_attack_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 661
+        width: 225
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd53ad40fcbb274d91fab60b444fde9
+      internalID: -1744581553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 659
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ad1657a7d60f44f90b74c73e2bbfb3
+      internalID: -190739298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_2
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 653
+        width: 234
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e9709281219804ba143ece73795423
+      internalID: 1814863791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_3
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 647
+        width: 242
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cede81a875d8eb34bb8fc9acc476e892
+      internalID: 764818120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_4
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 643
+        width: 252
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e7a6f87a5cc7b4ab317ee40c25a271
+      internalID: 1805804968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_5
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 643
+        width: 264
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c772cf85651235c47add53e391b75cc8
+      internalID: -972943896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_6
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 641
+        width: 284
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f21e54174554c46b2428fabf6ce5b8
+      internalID: 1138260810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_7
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 641
+        width: 296
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23eaea973e70c04f9833ea779c57c7e
+      internalID: 808532616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_8
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 637
+        width: 292
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18695c3eb23d1504bbdfc67495d1c6a3
+      internalID: 688766088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_9
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 635
+        width: 282
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1490a97a0fae82c47b99a7a2756198fb
+      internalID: 1196152065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_10
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 629
+        width: 268
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfda9d8e8f5f0da438cc064c31702332
+      internalID: -225370325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_11
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 625
+        width: 258
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caff205f141571b41a0813deee1441f0
+      internalID: 1163244918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_12
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 621
+        width: 250
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b876a711a2fefe94f85c5adaeeeeed03
+      internalID: -1177727624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 197
+        width: 240
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778b797785b1f874e955fca43ada0a5a
+      internalID: 17301686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_14
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 195
+        width: 230
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012ea282ea911c949abe5f5c78fb84e9
+      internalID: -1401382524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_15
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 193
+        width: 222
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36524226aa805f4dad73a877d79a80b
+      internalID: 1885628190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_16
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 193
+        width: 218
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14afd7c158420244ae168971c9cd766
+      internalID: 1741131947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_17
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 197
+        width: 216
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831ba08065df03d43b2a61e0382186e0
+      internalID: 227151042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_18
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 203
+        width: 218
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28116fcea1c6e1c44b9735d1c44ff689
+      internalID: -1618937368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_19
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 211
+        width: 220
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efc4cae394c4014d9217416d9d184ed
+      internalID: 781487030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_20
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 221
+        width: 221
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8c6d9ed09655a40b3b40ddf70553b8
+      internalID: -439257888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_21
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 233
+        width: 224
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c06b47f9a1d4140ba59717312ea11a
+      internalID: -339810310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_22
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 237
+        width: 224
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf32df3c21a5e14d8a19c66357d30d8
+      internalID: -2046430952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_23
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 239
+        width: 226
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979b59ee88a18f9428f6852cd6520606
+      internalID: -1166063326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_attack_24
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 239
+        width: 226
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f761cd5c8dacd434f9a4fede622df211
+      internalID: -1230137258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +651,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plug_attack_0: -1744581553
+      plug_attack_1: -190739298
+      plug_attack_10: -225370325
+      plug_attack_11: 1163244918
+      plug_attack_12: -1177727624
+      plug_attack_13: 17301686
+      plug_attack_14: -1401382524
+      plug_attack_15: 1885628190
+      plug_attack_16: 1741131947
+      plug_attack_17: 227151042
+      plug_attack_18: -1618937368
+      plug_attack_19: 781487030
+      plug_attack_2: 1814863791
+      plug_attack_20: -439257888
+      plug_attack_21: -339810310
+      plug_attack_22: -2046430952
+      plug_attack_23: -1166063326
+      plug_attack_24: -1230137258
+      plug_attack_3: 764818120
+      plug_attack_4: 1805804968
+      plug_attack_5: -972943896
+      plug_attack_6: 1138260810
+      plug_attack_7: 808532616
+      plug_attack_8: 688766088
+      plug_attack_9: 1196152065
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

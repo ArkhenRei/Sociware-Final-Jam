@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: plug_death_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 267
+        width: 224
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa9eac8fac88de4d8d5c2c1977baa51
+      internalID: 1346754083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 267
+        width: 224
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ea0727c45e73a48a3c343cccdaf914
+      internalID: -1566924252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_2
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 267
+        width: 224
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3465204fbac2d2f478e0de2087dbff79
+      internalID: -1630978969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_3
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 267
+        width: 224
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd10692b2af9a547b1be92619c6d9d1
+      internalID: 392334572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_4
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 267
+        width: 224
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e682b2349b00e4ba3f20273ff95b4b
+      internalID: -558485561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_5
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 265
+        width: 222
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd1f5c463a3b9247b23967bb00a2bf7
+      internalID: -1639139908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_6
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 265
+        width: 222
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bbd798e309f6644860b6fdf6a2248b
+      internalID: -32188290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_7
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 265
+        width: 220
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76babeb8590d5cf489ea2106b9b93837
+      internalID: -1008181779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_8
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 265
+        width: 220
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3515a72f5efcd804f9963d2d50dacc43
+      internalID: -1345522252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_9
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 263
+        width: 218
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f9e39691e0de34bb69285d16cb4582
+      internalID: 1092456951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_10
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 263
+        width: 218
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4581d2be0dbb02458db1f05df08908c
+      internalID: 609211841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_11
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 263
+        width: 216
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4417a1a0fd652514fb52a78e1edf73ea
+      internalID: 264091313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_12
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 263
+        width: 216
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b6b69d1d3e6104da969730116dcb2c
+      internalID: 233546558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_13
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 263
+        width: 216
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0832762ba50186e40a0e31425dcda7f8
+      internalID: 1543217119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_14
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 263
+        width: 216
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dcbaad8cab64741930f49d3ac9fd20
+      internalID: -568324908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_15
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 261
+        width: 214
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40fddb57b4f95348a6f360c2fd785ac
+      internalID: 330567534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_16
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 261
+        width: 214
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3cd010228096e448b3eed232e392f1
+      internalID: -465147330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 9
+        width: 214
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512df69d41ac8ce4f80e44af4ec4a920
+      internalID: 1137105298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 9
+        width: 214
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcca7606ef5696249852b03ff802f9f0
+      internalID: 1486386741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_19
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 9
+        width: 214
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a7d990d1a2e174bac1ad4974fee677
+      internalID: -1521445574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_20
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 9
+        width: 214
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea2698002880c43a904ef0a0303dc2
+      internalID: -443043209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_21
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 9
+        width: 214
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5216febfe4256d6448d2e77591884cde
+      internalID: -1333058398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_22
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 9
+        width: 214
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182f386b2e5000b42be7ede5af1815e9
+      internalID: -1986649945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_23
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 9
+        width: 214
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50aab191d1d163b4abd2e24631b50dd5
+      internalID: -92178547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_24
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 9
+        width: 214
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e492ee4d71f31c4a81f440632c5261e
+      internalID: -396948357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_25
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 9
+        width: 214
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fabca3c01c09344fa3bf507f6defa33
+      internalID: 334788896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_26
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 9
+        width: 214
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4e74b7a7ead1d48bd00d669ab6b3a9
+      internalID: 1024861499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_27
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 9
+        width: 214
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f069f955f26aa446a0fd80213b85e86
+      internalID: 1685747488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_28
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 9
+        width: 214
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13997ae37bcb87b4c9d2d5e422fe7c63
+      internalID: 1430738916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_29
+      rect:
+        serializedVersion: 2
+        x: 2797
+        y: 9
+        width: 214
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cbe474f2322244091c4323dc88b669
+      internalID: -1828925639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_30
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 9
+        width: 214
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da8e833ea05ff547aeaac27319c651e
+      internalID: 1972566070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug_death_31
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 9
+        width: 214
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184b649b2c7bb284cb51df45d1d276d6
+      internalID: -428035026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +798,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plug_death_0: 1346754083
+      plug_death_1: -1566924252
+      plug_death_10: 609211841
+      plug_death_11: 264091313
+      plug_death_12: 233546558
+      plug_death_13: 1543217119
+      plug_death_14: -568324908
+      plug_death_15: 330567534
+      plug_death_16: -465147330
+      plug_death_17: 1137105298
+      plug_death_18: 1486386741
+      plug_death_19: -1521445574
+      plug_death_2: -1630978969
+      plug_death_20: -443043209
+      plug_death_21: -1333058398
+      plug_death_22: -1986649945
+      plug_death_23: -92178547
+      plug_death_24: -396948357
+      plug_death_25: 334788896
+      plug_death_26: 1024861499
+      plug_death_27: 1685747488
+      plug_death_28: 1430738916
+      plug_death_29: -1828925639
+      plug_death_3: 392334572
+      plug_death_30: 1972566070
+      plug_death_31: -428035026
+      plug_death_4: -558485561
+      plug_death_5: -1639139908
+      plug_death_6: -32188290
+      plug_death_7: -1008181779
+      plug_death_8: -1345522252
+      plug_death_9: 1092456951
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

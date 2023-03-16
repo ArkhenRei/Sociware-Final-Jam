@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using ArkhenRei;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 [RequireComponent(typeof(Controller))]
 public class Move : MonoBehaviour
@@ -24,12 +25,13 @@ public class Move : MonoBehaviour
     private float _maxSpeedChange, _acceleration, _wallStickCounter;
     private bool _onGround;
 
-
-    private Animator anim;
+    public static bool fight;
+    public Animator anim;
     
     // Start is called before the first frame update
     void Awake()
     {
+        fight = false;
         _body = GetComponent<Rigidbody2D>();
         _collisionDataRetriever = GetComponent<CollisionDataRetriever>();
         _controller = GetComponent<Controller>();
@@ -42,6 +44,10 @@ public class Move : MonoBehaviour
     {
         _direction.x = input.RetrieveMoveInput();
         _desiredVelocity = new Vector2(_direction.x, 0f) * Mathf.Max(_maxSpeed - _collisionDataRetriever.GetFriction(), 0f);
+        if (Input.GetKeyDown(KeyCode.Space)&& fight)
+        {
+            anim.SetTrigger("isJumping");
+        }
     }
 
     private void FixedUpdate()
@@ -95,14 +101,11 @@ public class Move : MonoBehaviour
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            anim.SetTrigger("isJumping");
-        }
-       
-    }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+
+    }
+   
+public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Finish"))
         {
@@ -110,6 +113,8 @@ public class Move : MonoBehaviour
         }
         else if(collision.CompareTag("Enemy"))
         {
+            fight = true;
+               
             collision.gameObject.transform.GetChild(0).gameObject.SetActive(true);
         }
     }
