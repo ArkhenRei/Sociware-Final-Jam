@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - SceneCT
+  - Combat
+  - Enemy
+  - Parent
   layers:
   - Default
   - TransparentFX

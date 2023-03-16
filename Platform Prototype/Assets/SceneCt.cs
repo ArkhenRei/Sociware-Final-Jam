@@ -17,6 +17,7 @@ public class SceneCt : MonoBehaviour
     public GameObject canvas;
     public int score;
     public GameObject scoreUI;
+    public GameObject scoreText;
     private void Awake()
     {
         if (Instance == null)
@@ -26,6 +27,9 @@ public class SceneCt : MonoBehaviour
             timer = canvas.transform.GetChild(2).gameObject;
             timerText = canvas.transform.GetChild(2).gameObject.transform.GetChild(0).gameObject;
             scoreUI = canvas.transform.GetChild(4).gameObject;
+            scoreText = canvas.transform.GetChild(4).gameObject.transform.GetChild(0).gameObject;
+
+            score = 0;
             DontDestroyOnLoad(this.gameObject);
         }
         else
@@ -44,6 +48,7 @@ public class SceneCt : MonoBehaviour
         }
         roundTime = (Time.time - startTime).ConvertTo<int>();
         timerText.GetComponent<TextMeshProUGUI>().text = "Time: " + roundTime.ToString();
+        scoreText.GetComponent<TextMeshProUGUI>().text = "Score: " + score.ToString();
     }
 
     public void StartGame()
@@ -60,12 +65,16 @@ public class SceneCt : MonoBehaviour
     }
     public void NextLevel()
     {
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        Debug.Log(roundTime);
+        score = score + (20000/roundTime).ConvertTo<int>() ;
+        Debug.Log(score);
         startTime = Time.time;
         timer.SetActive(true);
         scoreUI.SetActive(true);
+        canvas.transform.GetChild(3).gameObject.SetActive(false);
         Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        
     }
     public void Continue()
     {
@@ -76,12 +85,24 @@ public class SceneCt : MonoBehaviour
     }
     public void FinishLevel()
     {
+       
         canvas.transform.GetChild(3).gameObject.SetActive(true);
         timer.SetActive(false);
         scoreUI.SetActive(false);
         Time.timeScale = 0;
-        score = score + (60000 * (1 / roundTime));
+        
+
     }
 
+    public void LoadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+   
+    public void StartCombat()
+    {
+
+    }
 }
 

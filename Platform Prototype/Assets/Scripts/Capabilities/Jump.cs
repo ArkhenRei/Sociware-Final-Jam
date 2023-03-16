@@ -23,6 +23,7 @@ public class Jump : MonoBehaviour
     private float _defaultGravityScale, _jumpSpeed, _coyoteCounter, _jumpBufferCounter;
 
     private bool _desiredJump, _onGround, _isJumping;
+ 
 
     // Start is called before the first frame update
     void Awake()
@@ -30,61 +31,70 @@ public class Jump : MonoBehaviour
         _body = GetComponent<Rigidbody2D>();
         _collisionDataRetriever = GetComponent<CollisionDataRetriever>();
         _controller = GetComponent<Controller>();
-
+        
         _defaultGravityScale = 1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        _desiredJump |= input.RetrieveJumpInput();
+        if (!Move.fight)
+        {
+            _desiredJump |= input.RetrieveJumpInput();
+        }
+        
     }
 
     private void FixedUpdate()
     {
-        _onGround = _collisionDataRetriever.GetOnGround();
-        _velocity = _body.velocity;
+        if (!Move.fight)
+        {
+            _onGround = _collisionDataRetriever.GetOnGround();
+            _velocity = _body.velocity;
 
-        if (_onGround && _body.velocity.y == 0)
-        {
-            _jumpPhase = 0;
-            _coyoteCounter = _coyoteTime;
-            _isJumping = false;
-        }
-        else
-        {
-            _coyoteCounter -= Time.deltaTime;
-        }
+            if (_onGround && _body.velocity.y == 0)
+            {
+                _jumpPhase = 0;
+                _coyoteCounter = _coyoteTime;
+                _isJumping = false;
+            }
+            else
+            {
+                _coyoteCounter -= Time.deltaTime;
+            }
 
-        if (_desiredJump)
-        {
-            _desiredJump = false;
-            _jumpBufferCounter = _jumpBufferTime;
-        }
-        else if (!_desiredJump && _jumpBufferCounter > 0)
-        {
-            _jumpBufferCounter -= Time.deltaTime;
-        }
+            if (_desiredJump)
+            {
+                _desiredJump = false;
+                _jumpBufferCounter = _jumpBufferTime;
+            }
+            else if (!_desiredJump && _jumpBufferCounter > 0)
+            {
+                _jumpBufferCounter -= Time.deltaTime;
+            }
 
-        if (_jumpBufferCounter > 0)
-        {
-            JumpAction();
-        }
+            if (_jumpBufferCounter > 0)
+            {
+                JumpAction();
+            }
 
-        if (_controller.input.RetrieveJumpHoldInput() && _body.velocity.y > 0)
-        {
-            _body.gravityScale = _upwardMovementMultiplier;
-        }
-        else if (!_controller.input.RetrieveJumpHoldInput() || _body.velocity.y < 0)
-        {
-            _body.gravityScale = _downwardMovementMultiplier;
-        }
-        else if (_body.velocity.y == 0)
-        {
-            _body.gravityScale = _defaultGravityScale;
-        }
+            if (_controller.input.RetrieveJumpHoldInput() && _body.velocity.y > 0)
+            {
+                _body.gravityScale = _upwardMovementMultiplier;
+            }
+            else if (!_controller.input.RetrieveJumpHoldInput() || _body.velocity.y < 0)
+            {
+                _body.gravityScale = _downwardMovementMultiplier;
+            }
+            else if (_body.velocity.y == 0)
+            {
+                _body.gravityScale = _defaultGravityScale;
+            }
 
-        _body.velocity = _velocity;
+            _body.velocity = _velocity;
+
+        }
+       
     }
 
     private void JumpAction()
