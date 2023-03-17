@@ -27,6 +27,7 @@ public class Move : MonoBehaviour
 
     public static bool fight;
     public Animator anim;
+   
     
     // Start is called before the first frame update
     void Awake()
@@ -44,7 +45,7 @@ public class Move : MonoBehaviour
     {
         _direction.x = input.RetrieveMoveInput();
         _desiredVelocity = new Vector2(_direction.x, 0f) * Mathf.Max(_maxSpeed - _collisionDataRetriever.GetFriction(), 0f);
-        if (Input.GetKeyDown(KeyCode.Space)&& fight)
+        if (Input.GetKeyDown(KeyCode.Space)&& !fight)
         {
             anim.SetTrigger("isJumping");
         }
@@ -85,7 +86,7 @@ public class Move : MonoBehaviour
         #endregion
 
         _body.velocity = _velocity;
-        if (_body.velocity.x != 0)
+        if (_body.velocity.x != 0 && !fight)
         {
             anim.SetBool("isWalking", true);
         }
@@ -93,11 +94,11 @@ public class Move : MonoBehaviour
         {
             anim.SetBool("isWalking", false);
         }
-        if (_body.velocity.x < 0)
+        if (_body.velocity.x < 0 && !fight)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
-        else if (_body.velocity.x > 0)
+        else if (_body.velocity.x > 0 && !fight )
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
@@ -105,7 +106,7 @@ public class Move : MonoBehaviour
 
     }
    
-public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Finish"))
         {
@@ -116,6 +117,11 @@ public void OnTriggerEnter2D(Collider2D collision)
             fight = true;
                
             collision.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
         }
     }
+
+
+
+
 }

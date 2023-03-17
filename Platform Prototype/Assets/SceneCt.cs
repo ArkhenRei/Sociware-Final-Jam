@@ -100,9 +100,10 @@ public class SceneCt : MonoBehaviour
     }
 
    
-    public void StartCombat()
+    public void FinishCombat()
     {
-
+        GameObject.FindGameObjectWithTag("Parent").gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        GameObject.FindGameObjectWithTag("Parent").gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 }
 

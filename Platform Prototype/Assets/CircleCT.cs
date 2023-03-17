@@ -32,13 +32,12 @@ public class CircleCT : MonoBehaviour
                 if (secondChance)
                 {
                     GameObject.FindGameObjectWithTag("Combat").SetActive(false);
-                    
-                  
                     player.GetComponent<Animator>().SetTrigger("Attack");
                     enemy.GetComponent<Animator>().SetTrigger("Death");
                     sceneCT.GetComponent<SceneCt>().score += 1000;
                     Move.fight = false;
-                   
+                    sceneCT.GetComponent<SceneCt>().FinishCombat();
+
 
                 }
                 else if(!secondChance)
@@ -49,6 +48,7 @@ public class CircleCT : MonoBehaviour
                     enemy.GetComponent<Animator>().SetTrigger("Death");
                     sceneCT.GetComponent<SceneCt>().score += 2000;
                     Move.fight = false;
+                    sceneCT.GetComponent<SceneCt>().FinishCombat();
                 }
 
 

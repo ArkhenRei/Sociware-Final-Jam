@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnim : StateMachineBehaviour
+public class AttackPlayerAnim : StateMachineBehaviour
 {
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -16,13 +16,11 @@ public class PlayerAnim : StateMachineBehaviour
     //    
     //}
 
-   
+    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         GameObject.FindGameObjectWithTag("Parent").gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         GameObject.FindGameObjectWithTag("Parent").gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
-        GameObject.FindGameObjectWithTag("SceneCT").GetComponent<SceneCt>().LoadScene();
-       
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
