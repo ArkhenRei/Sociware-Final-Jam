@@ -54,3 +54,6 @@ TagManager:
   - name: character
     uniqueID: 258192949
     locked: 0
+  - name: combat circle
+    uniqueID: 3323146667
+    locked: 0
