@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 6854961506258173172}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 6854961506409035097}
   m_Layer: 0
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Parent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,6 +342,7 @@ MonoBehaviour:
   _maxAcceleration: 50
   _maxAirAcceleration: 35
   _wallStickTime: 0.25
+  anim: {fileID: 0}
 --- !u!114 &6854961506409035168
 MonoBehaviour:
   m_ObjectHideFlags: 0
