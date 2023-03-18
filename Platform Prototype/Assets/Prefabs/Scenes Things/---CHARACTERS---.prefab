@@ -171,7 +171,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6854961506409035170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.05, y: 0.98, z: 5.45}
+  m_LocalPosition: {x: -20.38, y: 0.98, z: 5.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -342,7 +342,9 @@ MonoBehaviour:
   _maxAcceleration: 50
   _maxAirAcceleration: 35
   _wallStickTime: 0.25
+  _audio: {fileID: 0}
   anim: {fileID: 0}
+  footSteps: 0
 --- !u!114 &6854961506409035168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,3 +427,4 @@ MonoBehaviour:
   _wallClimbJump: {x: 4, y: 12}
   _wallJumpBounce: {x: 10.7, y: 10}
   _wallJumpLeap: {x: 14, y: 12}
+  anim: {fileID: 0}

@@ -13,6 +13,7 @@ public class Move : MonoBehaviour
     [SerializeField, Range(0f, 100f)] private float _maxAcceleration = 35f;
     [SerializeField, Range(0f, 100f)] private float _maxAirAcceleration = 20f;
     [SerializeField, Range(0.05f, 0.5f)] private float _wallStickTime = 0.25f;
+  
 
     private Vector2 _direction;
     private Vector2 _desiredVelocity;
@@ -32,6 +33,7 @@ public class Move : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+      
         fight = false;
         _body = GetComponent<Rigidbody2D>();
         _collisionDataRetriever = GetComponent<CollisionDataRetriever>();
@@ -43,6 +45,7 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         _direction.x = input.RetrieveMoveInput();
         _desiredVelocity = new Vector2(_direction.x, 0f) * Mathf.Max(_maxSpeed - _collisionDataRetriever.GetFriction(), 0f);
         if (Input.GetKeyDown(KeyCode.Space)&& !fight)
@@ -89,6 +92,7 @@ public class Move : MonoBehaviour
         if (_body.velocity.x != 0 && !fight)
         {
             anim.SetBool("isWalking", true);
+
         }
         else
         {

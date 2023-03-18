@@ -2103,10 +2103,7 @@ MonoBehaviour:
   timer: {fileID: 0}
   timerText: {fileID: 0}
   canvas: {fileID: 0}
-  score: 0
-  scoreUI: {fileID: 0}
-  scoreText: {fileID: 0}
-  LevelTime: 15
+  LevelTime: 20
 --- !u!4 &1831960639
 Transform:
   m_ObjectHideFlags: 0

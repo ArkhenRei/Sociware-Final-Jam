@@ -952,25 +952,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: ---CHARACTERS---
       objectReference: {fileID: 0}
-    - target: {fileID: 6854961505328034167, guid: 1b0cb9d7cfbf0c043b7c5783f5fdf7f1, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854961506409035098, guid: 1b0cb9d7cfbf0c043b7c5783f5fdf7f1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -20.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854961506409035099, guid: 1b0cb9d7cfbf0c043b7c5783f5fdf7f1, type: 3}
-      propertyPath: _jumpHeight
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854961506409035099, guid: 1b0cb9d7cfbf0c043b7c5783f5fdf7f1, type: 3}
-      propertyPath: _downwardMovementMultiplier
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854961506409035170, guid: 1b0cb9d7cfbf0c043b7c5783f5fdf7f1, type: 3}
-      propertyPath: m_TagString
-      value: Parent
+    - target: {fileID: 6854961506409035174, guid: 1b0cb9d7cfbf0c043b7c5783f5fdf7f1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b0cb9d7cfbf0c043b7c5783f5fdf7f1, type: 3}
