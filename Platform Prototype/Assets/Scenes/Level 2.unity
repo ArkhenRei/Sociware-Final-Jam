@@ -725,6 +725,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4594633069010262707, guid: 65ab1be8e5fc70d4c995e1064e497a51, type: 3}
+      propertyPath: m_Size.x
+      value: 55.019714
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594633069010262707, guid: 65ab1be8e5fc70d4c995e1064e497a51, type: 3}
+      propertyPath: m_Offset.x
+      value: -2.5098562
+      objectReference: {fileID: 0}
     - target: {fileID: 4594633069010262708, guid: 65ab1be8e5fc70d4c995e1064e497a51, type: 3}
       propertyPath: m_Name
       value: Death Collider
@@ -965,6 +973,14 @@ PrefabInstance:
     - target: {fileID: 6632026001015208129, guid: c8a812813d6f0734cb38b59ee52cdebd, type: 3}
       propertyPath: m_Name
       value: ---CAMERAS---
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632026001529381484, guid: c8a812813d6f0734cb38b59ee52cdebd, type: 3}
+      propertyPath: orthographic size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632026001529381523, guid: c8a812813d6f0734cb38b59ee52cdebd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a812813d6f0734cb38b59ee52cdebd, type: 3}

@@ -490,6 +490,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4594633069010262707, guid: 65ab1be8e5fc70d4c995e1064e497a51, type: 3}
+      propertyPath: m_Size.x
+      value: 54.17131
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594633069010262707, guid: 65ab1be8e5fc70d4c995e1064e497a51, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.9544525
+      objectReference: {fileID: 0}
     - target: {fileID: 4594633069010262708, guid: 65ab1be8e5fc70d4c995e1064e497a51, type: 3}
       propertyPath: m_Name
       value: Death Collider
@@ -1915,7 +1923,7 @@ Transform:
   m_GameObject: {fileID: 2014002848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.23, y: 5.018472, z: 0}
-  m_LocalScale: {x: 1.0884, y: 1.0884, z: 1.0884}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.0884}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2040,7 +2048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6632026001529381484, guid: c8a812813d6f0734cb38b59ee52cdebd, type: 3}
       propertyPath: orthographic size
-      value: 9.878934
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a812813d6f0734cb38b59ee52cdebd, type: 3}

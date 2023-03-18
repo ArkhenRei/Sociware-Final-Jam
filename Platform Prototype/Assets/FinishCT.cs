@@ -15,6 +15,6 @@ public class FinishCT : MonoBehaviour
     void Update()
     {
         yRot= yRot+ 0.5f;
-        transform.rotation = Quaternion.Euler(0, yRot, 0);
+        transform.rotation = Quaternion.Euler(0, yRot,0 );
     }
 }
