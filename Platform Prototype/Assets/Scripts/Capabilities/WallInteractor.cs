@@ -26,6 +26,7 @@ namespace ArkhenRei
         private Vector2 _velocity;
         private bool _onWall, _onGround, _desiredJump;
         private float _wallDirectionX;
+        public Animator anim;
         
         // Start is called before the first frame update
         void Start()
@@ -33,6 +34,7 @@ namespace ArkhenRei
             _collisionDataRetriever = GetComponent<CollisionDataRetriever>();
             _body = GetComponent<Rigidbody2D>();
             _controller = GetComponent<Controller>();
+            anim = transform.GetChild(0).gameObject.GetComponent<Animator>();
         }
 
         // Update is called once per frame
@@ -40,6 +42,7 @@ namespace ArkhenRei
         {
             if (_onWall && !_onGround)
             {
+
                 _desiredJump |= _controller.input.RetrieveJumpInput();
             }
         }
@@ -55,6 +58,7 @@ namespace ArkhenRei
 
             if (_onWall)
             {
+               
                 if (_velocity.y < -_wallSlideMaxSpeed)
                 {
                     _velocity.y = -_wallSlideMaxSpeed;
@@ -72,6 +76,7 @@ namespace ArkhenRei
             
             if (_desiredJump)
             {
+                anim.SetTrigger("WallJump");
                 if (-_wallDirectionX == _controller.input.RetrieveMoveInput())
                 {
                     _velocity = new Vector2(_wallClimbJump.x * _wallDirectionX, _wallClimbJump.y);
