@@ -24,8 +24,8 @@ public class SceneCt : MonoBehaviour
         {
             Instance = this;
             canvas = transform.GetChild(0).gameObject;
-            timer = canvas.transform.GetChild(2).gameObject;
-            timerText = canvas.transform.GetChild(2).gameObject.transform.GetChild(0).gameObject;
+            timer = canvas.transform.GetChild(3).gameObject;
+            timerText = canvas.transform.GetChild(3).gameObject.transform.GetChild(0).gameObject;
         
 
             //score = 0;
@@ -42,7 +42,7 @@ public class SceneCt : MonoBehaviour
         {
             timer.SetActive(false);
           
-            transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.SetActive(true);
+            canvas.gameObject.transform.GetChild(2).gameObject.SetActive(true);
             //Time.unscaledTime = 0;
         }
         roundTime = (Time.time - startTime).ConvertTo<int>();
@@ -61,7 +61,7 @@ public class SceneCt : MonoBehaviour
     {
         
         SceneManager.LoadScene(1);
-        transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.SetActive(false);
         timer.SetActive(true);
         startTime = Time.time;
        
@@ -80,14 +80,14 @@ public class SceneCt : MonoBehaviour
         startTime = Time.time;
         timer.SetActive(true);
         
-        canvas.transform.GetChild(3).gameObject.SetActive(false);
+        canvas.transform.GetChild(4).gameObject.SetActive(false);
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         
     }
     public void Continue()
     {
-        transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.SetActive(false);
+        transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.SetActive(false);
         timer.SetActive(true);
        
         Time.timeScale = 1;
@@ -95,7 +95,7 @@ public class SceneCt : MonoBehaviour
     public void FinishLevel()
     {
        
-        canvas.transform.GetChild(3).gameObject.SetActive(true);
+        canvas.transform.GetChild(4).gameObject.SetActive(true);
         timer.SetActive(false);
         
         Time.timeScale = 0;
