@@ -15,9 +15,9 @@ public class SceneCt : MonoBehaviour
     public GameObject timer;
     public GameObject timerText;
     public GameObject canvas;
-    public int score;
-    public GameObject scoreUI;
-    public GameObject scoreText;
+
+
+    [SerializeField] int LevelTime =15;
     private void Awake()
     {
         if (Instance == null)
@@ -26,10 +26,9 @@ public class SceneCt : MonoBehaviour
             canvas = transform.GetChild(0).gameObject;
             timer = canvas.transform.GetChild(2).gameObject;
             timerText = canvas.transform.GetChild(2).gameObject.transform.GetChild(0).gameObject;
-            scoreUI = canvas.transform.GetChild(4).gameObject;
-            scoreText = canvas.transform.GetChild(4).gameObject.transform.GetChild(0).gameObject;
+        
 
-            score = 0;
+            //score = 0;
             DontDestroyOnLoad(this.gameObject);
         }
         else
@@ -42,22 +41,34 @@ public class SceneCt : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             timer.SetActive(false);
-            scoreUI.SetActive(false);
+          
             transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.SetActive(true);
             //Time.unscaledTime = 0;
         }
         roundTime = (Time.time - startTime).ConvertTo<int>();
-        timerText.GetComponent<TextMeshProUGUI>().text = "Time: " + roundTime.ToString();
-        scoreText.GetComponent<TextMeshProUGUI>().text = "Score: " + score.ToString();
+        timerText.GetComponent<TextMeshProUGUI>().text = "Time: " + (LevelTime-roundTime).ToString();
+        //scoreText.GetComponent<TextMeshProUGUI>().text = "Score: " + score.ToString();
+    }
+    private void FixedUpdate()
+    {
+        if (roundTime > LevelTime && SceneManager.GetActiveScene().buildIndex !=1)
+        {
+            LoadScene();
+        }
     }
 
     public void StartGame()
     {
-        transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        
         SceneManager.LoadScene(1);
+        transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.SetActive(false);
         timer.SetActive(true);
-        scoreUI.SetActive(true);
         startTime = Time.time;
+       
+       
+        
+        
+       
     }
     public void ExitGame()
     {
@@ -65,12 +76,10 @@ public class SceneCt : MonoBehaviour
     }
     public void NextLevel()
     {
-        Debug.Log(roundTime);
-        score = score + (20000/roundTime).ConvertTo<int>() ;
-        Debug.Log(score);
+     
         startTime = Time.time;
         timer.SetActive(true);
-        scoreUI.SetActive(true);
+        
         canvas.transform.GetChild(3).gameObject.SetActive(false);
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
@@ -80,7 +89,7 @@ public class SceneCt : MonoBehaviour
     {
         transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.SetActive(false);
         timer.SetActive(true);
-        scoreUI.SetActive(true);
+       
         Time.timeScale = 1;
     }
     public void FinishLevel()
@@ -88,7 +97,7 @@ public class SceneCt : MonoBehaviour
        
         canvas.transform.GetChild(3).gameObject.SetActive(true);
         timer.SetActive(false);
-        scoreUI.SetActive(false);
+        
         Time.timeScale = 0;
         
 
@@ -96,7 +105,9 @@ public class SceneCt : MonoBehaviour
 
     public void LoadScene()
     {
+       
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        startTime = Time.time;
     }
 
    
