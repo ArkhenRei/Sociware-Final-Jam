@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class FinishCT : MonoBehaviour
 {
-    public float yRot;
-    // Start is called before the first frame update
-    void Start()
+    public float amplitude = 0.1f; // The amount the image moves up and down
+    public float speed = 1f; // The speed at which the image moves
+
+    private Vector3 startPos;
+
+    private void Start()
     {
-        
+        startPos = transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        yRot= yRot+ 0.5f;
-        transform.rotation = Quaternion.Euler(0, yRot,0 );
+        float newY = startPos.y + amplitude * Mathf.Sin(speed * Time.time);
+        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
 }
