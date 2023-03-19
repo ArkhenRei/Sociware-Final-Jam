@@ -61,6 +61,7 @@ public class SceneCt : MonoBehaviour
     {
         
         SceneManager.LoadScene(1);
+        transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.SetActive(false);
         transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.SetActive(false);
         timer.SetActive(true);
         startTime = Time.time;
