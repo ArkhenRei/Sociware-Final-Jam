@@ -16,8 +16,10 @@ public class PlayerMovement : MonoBehaviour
 
 	//HOW TO: to add the scriptable object, right-click in the project window -> create -> Player Data
 	//Next, drag it into the slot in playerMovement on your player
-
+	
 	public PlayerData Data;
+	public GameObject Child;
+	public Animator anim;
 
 	#region Variables
 	//Components
@@ -65,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
 	{
 		RB = GetComponent<Rigidbody2D>();
+		anim = Child.GetComponent<Animator>();
 	}
 
 	private void Start()
@@ -75,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
 
 	private void Update()
 	{
+
         #region TIMERS
         LastOnGroundTime -= Time.deltaTime;
 		LastOnWallTime -= Time.deltaTime;
@@ -218,6 +222,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
 	{
+		if (RB.velocity.x!=0)
+		{
+			anim.SetBool("isWalking", true);
+		}
+		else
+		{
+            anim.SetBool("isWalking", false);
+        }
 		//Handle Run
 		if (IsWallJumping)
 			Run(Data.wallJumpRunLerp);
@@ -229,9 +241,17 @@ public class PlayerMovement : MonoBehaviour
 			Slide();
     }
 
-    #region INPUT CALLBACKS
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.gameObject.CompareTag("Finish"))
+		{
+			GameObject.FindGameObjectWithTag("SceneCT").gameObject.GetComponent<SceneCt>().FinishLevel();
+		}
+	}
+
+	#region INPUT CALLBACKS
 	//Methods which whandle input detected in Update()
-    public void OnJumpInput()
+	public void OnJumpInput()
 	{
 		LastPressedJumpTime = Data.jumpInputBufferTime;
 	}
@@ -332,6 +352,7 @@ public class PlayerMovement : MonoBehaviour
 			force -= RB.velocity.y;
 
 		RB.AddForce(Vector2.up * force, ForceMode2D.Impulse);
+		anim.SetTrigger("Jump");
 		#endregion
 	}
 
@@ -356,6 +377,7 @@ public class PlayerMovement : MonoBehaviour
 		//Unlike in the run we want to use the Impulse mode.
 		//The default mode will apply are force instantly ignoring masss
 		RB.AddForce(force, ForceMode2D.Impulse);
+		anim.SetTrigger("WallJump");
 		#endregion
 	}
 	#endregion
@@ -372,6 +394,7 @@ public class PlayerMovement : MonoBehaviour
 		movement = Mathf.Clamp(movement, -Mathf.Abs(speedDif)  * (1 / Time.fixedDeltaTime), Mathf.Abs(speedDif) * (1 / Time.fixedDeltaTime));
 
 		RB.AddForce(movement * Vector2.up);
+		anim.SetTrigger("WallSlide");
 	}
     #endregion
 

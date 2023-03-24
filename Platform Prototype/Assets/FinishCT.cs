@@ -19,4 +19,5 @@ public class FinishCT : MonoBehaviour
         float newY = startPos.y + amplitude * Mathf.Sin(speed * Time.time);
         transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
+ 
 }

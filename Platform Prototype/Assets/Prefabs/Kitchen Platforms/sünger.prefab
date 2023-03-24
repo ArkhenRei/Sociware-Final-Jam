@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4463891984701932113}
   - component: {fileID: 4463891984701932114}
   - component: {fileID: 4463891984701932115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "s\xFCnger"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

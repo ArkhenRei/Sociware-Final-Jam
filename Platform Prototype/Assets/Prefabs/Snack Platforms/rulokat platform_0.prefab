@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6201548463340628646}
   - component: {fileID: 2871898626173494595}
   - component: {fileID: 8133475813876101391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rulokat platform_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

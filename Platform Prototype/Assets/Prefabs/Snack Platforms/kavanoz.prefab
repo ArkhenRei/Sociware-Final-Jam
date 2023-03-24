@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4088299070193744819}
   - component: {fileID: 1633487315795568462}
   - component: {fileID: 9154440683493003197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: kavanoz
   m_TagString: Untagged
   m_Icon: {fileID: 0}

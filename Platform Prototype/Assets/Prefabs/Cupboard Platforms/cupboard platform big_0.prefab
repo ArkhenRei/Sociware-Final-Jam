@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8215117944991744419}
   - component: {fileID: 1568900156457405428}
   - component: {fileID: 4395361478800498015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cupboard platform big_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

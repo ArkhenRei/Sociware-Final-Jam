@@ -18,9 +18,17 @@ public class VideoCT : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         if (sceneCT.GetComponent<SceneCt>().roundTime >=22)
         {
-            sceneCT.GetComponent<SceneCt>().NextLevel();
+            sceneCT.GetComponent<SceneCt>().FinishLevel();
+        }
+    }
+    private void FixedUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            sceneCT.GetComponent<SceneCt>().FinishLevel();
         }
     }
 }

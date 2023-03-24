@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1322948051751648473}
   - component: {fileID: 6863764277507766929}
   - component: {fileID: 7782917841755444903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "kesme tahtas\u0131"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

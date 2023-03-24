@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5646205677814127931}
   - component: {fileID: 7337734027984928127}
   - component: {fileID: 2794636923557172446}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cornflakes orange_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

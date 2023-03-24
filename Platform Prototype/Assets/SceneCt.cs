@@ -24,8 +24,8 @@ public class SceneCt : MonoBehaviour
         {
             Instance = this;
             canvas = transform.GetChild(0).gameObject;
-            timer = canvas.transform.GetChild(3).gameObject;
-            timerText = canvas.transform.GetChild(3).gameObject.transform.GetChild(0).gameObject;
+            timer = canvas.transform.GetChild(2).gameObject;
+            timerText = canvas.transform.GetChild(2).gameObject.transform.GetChild(0).gameObject;
         
 
             //score = 0;
@@ -38,13 +38,6 @@ public class SceneCt : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            timer.SetActive(false);
-          
-            canvas.gameObject.transform.GetChild(2).gameObject.SetActive(true);
-            //Time.unscaledTime = 0;
-        }
         roundTime = (Time.time - startTime).ConvertTo<int>();
         timerText.GetComponent<TextMeshProUGUI>().text = "Time: " + (LevelTime-roundTime).ToString();
         //scoreText.GetComponent<TextMeshProUGUI>().text = "Score: " + score.ToString();
@@ -75,33 +68,11 @@ public class SceneCt : MonoBehaviour
     {
         Application.Quit();
     }
-    public void NextLevel()
-    {
-     
-        startTime = Time.time;
-        timer.SetActive(true);
-        
-        canvas.transform.GetChild(4).gameObject.SetActive(false);
-        Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-        
-    }
-    public void Continue()
-    {
-        transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.SetActive(false);
-        timer.SetActive(true);
-       
-        Time.timeScale = 1;
-    }
+
     public void FinishLevel()
     {
-       
-        canvas.transform.GetChild(4).gameObject.SetActive(true);
-        timer.SetActive(false);
-        
-        Time.timeScale = 0;
-        
-
+        startTime = Time.time;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void LoadScene()

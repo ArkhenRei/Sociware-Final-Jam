@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4600204953323697235}
   - component: {fileID: 8711690911260370505}
   - component: {fileID: 2940132450476581060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cornflakes red_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
